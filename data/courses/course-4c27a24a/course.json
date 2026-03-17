@@ -1,0 +1,99 @@
+{
+    "id": "course-4c27a24a",
+    "metadata": {
+        "title": "Web Development",
+        "description": "Abc",
+        "author": "Zainab",
+        "language": "de",
+        "duration_minutes": 30
+    },
+    "scorm": {
+        "version": "1.2",
+        "masteryScore": 80
+    },
+    "created_at": "2026-03-12T08:24:44+01:00",
+    "units": [
+        {
+            "id": "unit-724f7995",
+            "title": "Introduction to HTML",
+            "order": 999,
+            "slides": [
+                {
+                    "id": "slide-a47bf022",
+                    "title": "Intro",
+                    "type": "interactive",
+                    "order": 1,
+                    "content": {
+                        "interaction_type": "drag_drop",
+                        "instructions": "",
+                        "drag_items": [],
+                        "drop_zones": []
+                    },
+                    "scorm_objective_id": "obj-85b138a4"
+                }
+            ]
+        },
+        {
+            "id": "unit-a8518533",
+            "title": "Introduction to CSS",
+            "order": 999,
+            "slides": [
+                {
+                    "id": "slide-1536e324",
+                    "title": "Quiz",
+                    "type": "quiz",
+                    "order": 1,
+                    "content": {
+                        "instructions": "",
+                        "passing_score": 2,
+                        "max_attempts": 3,
+                        "shuffle_answers": true,
+                        "show_feedback": false,
+                        "questions": [
+                            {
+                                "id": "q-1773301669282",
+                                "type": "single_choice",
+                                "text": "",
+                                "weight": 1,
+                                "answers": [
+                                    {
+                                        "id": "a-1773301669282-0",
+                                        "text": "",
+                                        "correct": true,
+                                        "feedback": ""
+                                    },
+                                    {
+                                        "id": "a-1773301669282-1",
+                                        "text": "",
+                                        "correct": false,
+                                        "feedback": ""
+                                    },
+                                    {
+                                        "id": "a-1773301707721",
+                                        "text": "",
+                                        "correct": false,
+                                        "feedback": ""
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "scorm_objective_id": "obj-ab7b9df7"
+                }
+            ]
+        },
+        {
+            "id": "unit-18134805",
+            "title": "Introduction to Javascript",
+            "order": 999,
+            "slides": []
+        },
+        {
+            "id": "unit-a7cebb9c",
+            "title": "Introduction to Bootstrap",
+            "order": 999,
+            "slides": []
+        }
+    ],
+    "updated_at": "2026-03-12T08:51:10+01:00"
+}

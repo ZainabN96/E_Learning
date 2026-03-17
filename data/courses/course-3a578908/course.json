@@ -1,0 +1,23 @@
+{
+    "id": "course-3a578908",
+    "metadata": {
+        "title": "C#",
+        "description": "",
+        "author": "Zainab",
+        "language": "en",
+        "duration_minutes": 30
+    },
+    "scorm": {
+        "version": "1.2",
+        "masteryScore": 80
+    },
+    "updated_at": "2026-03-16T10:30:01+01:00",
+    "units": [
+        {
+            "id": "unit-7233750c",
+            "title": "m",
+            "order": 999,
+            "slides": []
+        }
+    ]
+}

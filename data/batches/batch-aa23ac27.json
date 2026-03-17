@@ -1,0 +1,14 @@
+{
+    "id": "batch-aa23ac27",
+    "name": "HTF B1",
+    "course_id": "course-3a578908",
+    "trainer_id": "user-245ae4f1",
+    "start_date": "2026-04-01",
+    "end_date": "2026-05-31",
+    "status": "upcoming",
+    "student_ids": [
+        "user-a78a8e3a"
+    ],
+    "open_enrollment": false,
+    "updated_at": "2026-03-16T10:32:04+01:00"
+}

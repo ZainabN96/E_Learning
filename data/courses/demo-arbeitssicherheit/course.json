@@ -1,0 +1,291 @@
+{
+  "id": "demo-arbeitssicherheit",
+  "version": "1.0.0",
+  "created_at": "2026-03-03T10:00:00+01:00",
+  "updated_at": "2026-03-03T10:00:00+01:00",
+  "metadata": {
+    "title": "Grundlagen der Arbeitssicherheit",
+    "description": "Ein Einführungskurs zu Sicherheitsvorschriften am Arbeitsplatz. Dieser Demokurs zeigt alle verfügbaren Inhaltstypen.",
+    "language": "de",
+    "duration_minutes": 30,
+    "author": "E-Learning Plattform",
+    "tags": ["sicherheit", "einführung", "demo"]
+  },
+  "scorm": {
+    "version": "1.2",
+    "masteryScore": 80,
+    "maxTimeAllowed": "02:00:00",
+    "timeLimitAction": "continue,message"
+  },
+  "units": [
+    {
+      "id": "unit-001",
+      "title": "Modul 1: Einführung",
+      "order": 1,
+      "slides": [
+        {
+          "id": "slide-001",
+          "order": 1,
+          "type": "html",
+          "title": "Willkommen zum Kurs",
+          "scorm_objective_id": "obj-001",
+          "content": {
+            "html": "<h2>Willkommen!</h2><p>In diesem Kurs erlernen Sie die <strong>Grundlagen der Arbeitssicherheit</strong> am Arbeitsplatz.</p><p>Der Kurs besteht aus zwei Modulen und enthält verschiedene Lernaktivitäten:</p><ul><li>📄 Text- und HTML-Folien</li><li>🎬 Video-Lektionen</li><li>🎯 Interaktive Übungen (Registerkarten, Akkordeon, Drag &amp; Drop, Bildmarkierungen)</li><li>✅ Wissenstests</li></ul><p>Klicken Sie auf <strong>Weiter</strong>, um zu beginnen.</p>",
+            "layout": "default",
+            "background_color": "#ffffff"
+          }
+        },
+        {
+          "id": "slide-002",
+          "order": 2,
+          "type": "html",
+          "title": "Lernziele",
+          "scorm_objective_id": "obj-002",
+          "content": {
+            "html": "<h2>Was Sie lernen werden</h2><p>Nach Abschluss dieses Kurses werden Sie in der Lage sein:</p><ol><li>Die wichtigsten gesetzlichen Vorschriften zur Arbeitssicherheit zu benennen</li><li>Gefahren am Arbeitsplatz zu erkennen und zu melden</li><li>Persönliche Schutzausrüstung korrekt zu verwenden</li><li>Im Notfall richtig zu handeln</li></ol><p style=\"background:#dbeafe;padding:1rem;border-radius:8px;border-left:4px solid #2563eb\">💡 <strong>Hinweis:</strong> Sie müssen mindestens 80% im Abschlusstest erreichen, um den Kurs zu bestehen.</p>",
+            "layout": "default",
+            "background_color": "#ffffff"
+          }
+        },
+        {
+          "id": "slide-003",
+          "order": 3,
+          "type": "video",
+          "title": "Einführungsvideo",
+          "scorm_objective_id": "obj-003",
+          "content": {
+            "src": "https://www.w3schools.com/html/mov_bbb.mp4",
+            "poster": "",
+            "caption_file": "",
+            "completion_threshold": 0.8,
+            "audio_only": false
+          }
+        },
+        {
+          "id": "slide-004",
+          "order": 4,
+          "type": "interactive",
+          "title": "Schutzmaßnahmen: Registerkarten",
+          "scorm_objective_id": "obj-004",
+          "content": {
+            "interaction_type": "tabs",
+            "instructions": "Klicken Sie auf alle Registerkarten, um die Inhalte zu lesen.",
+            "completion_condition": "all_tabs_visited",
+            "tabs": [
+              {
+                "id": "tab-001",
+                "label": "Technische Maßnahmen",
+                "html": "<h3>Technische Schutzmaßnahmen</h3><p>Technische Maßnahmen haben die höchste Priorität im Arbeitsschutz:</p><ul><li><strong>Schutzeinrichtungen</strong> an Maschinen (Abdeckungen, Schutzgitter)</li><li><strong>Sicherheitsarmaturen</strong> und Druckbegrenzungsventile</li><li><strong>Ergonomische Gestaltung</strong> von Arbeitsplätzen</li><li><strong>Lärm- und Schwingungsminderung</strong> durch technische Mittel</li></ul>"
+              },
+              {
+                "id": "tab-002",
+                "label": "Organisatorische Maßnahmen",
+                "html": "<h3>Organisatorische Maßnahmen</h3><p>Wenn technische Maßnahmen allein nicht ausreichen:</p><ul><li><strong>Sicherheitsunterweisungen</strong> für alle Mitarbeiter</li><li><strong>Betriebsanweisungen</strong> und Gefahrenkennzeichnungen</li><li><strong>Notfallpläne</strong> und Evakuierungsübungen</li><li><strong>Arbeitszeit- und Pausenregelungen</strong></li></ul>"
+              },
+              {
+                "id": "tab-003",
+                "label": "Persönliche Maßnahmen",
+                "html": "<h3>Persönliche Schutzausrüstung (PSA)</h3><p>Als letzte Schutzebene dient die PSA:</p><ul><li>🦺 <strong>Schutzhelm</strong> bei Absturzgefahr und Kopfverletzungsrisiko</li><li>👓 <strong>Schutzbrille</strong> bei Spritz- und Staubgefahr</li><li>🥾 <strong>Sicherheitsschuhe</strong> (Stahlkappen, Antirutsch-Sohlen)</li><li>🧤 <strong>Schutzhandschuhe</strong> je nach Gefährdungsart</li></ul>"
+              }
+            ]
+          }
+        },
+        {
+          "id": "slide-005",
+          "order": 5,
+          "type": "interactive",
+          "title": "Notfallproceduren: Akkordeon",
+          "scorm_objective_id": "obj-005",
+          "content": {
+            "interaction_type": "accordion",
+            "instructions": "Öffnen Sie alle Abschnitte, um die Notfallproceduren zu lesen.",
+            "completion_condition": "all_panels_opened",
+            "panels": [
+              {
+                "id": "panel-001",
+                "label": "🚨 Feueralarm",
+                "html": "<p><strong>Bei Feueralarm:</strong></p><ol><li>Ruhe bewahren</li><li>Arbeit sofort einstellen und Geräte ausschalten</li><li>Mitarbeiter warnen und Tür schließen</li><li>Nächsten Notausgang benutzen</li><li>Am Sammelplatz melden</li><li><strong>Niemals Aufzüge benutzen!</strong></li></ol>"
+              },
+              {
+                "id": "panel-002",
+                "label": "🏥 Erste Hilfe",
+                "html": "<p><strong>Bei einem Arbeitsunfall:</strong></p><ol><li>Sicherheit der Unfallstelle prüfen (keine weitere Gefährdung)</li><li>Ersthelfer alarmieren (Aushang beachten)</li><li>Notruf 112 anrufen</li><li>Erste-Hilfe-Maßnahmen einleiten</li><li>Unfall im Verbandbuch dokumentieren</li></ol><p><strong>Wichtig:</strong> Auch kleine Verletzungen müssen dokumentiert werden!</p>"
+              },
+              {
+                "id": "panel-003",
+                "label": "⚠️ Gefahrstoff-Austritt",
+                "html": "<p><strong>Bei Austritt von Gefahrstoffen:</strong></p><ol><li>Bereich sofort verlassen und absperren</li><li>Vorgesetzten und Sicherheitsbeauftragten informieren</li><li>Gefahrstoff-Sicherheitsdatenblatt konsultieren</li><li>Ggf. Feuerwehr (112) und Behörden informieren</li><li>Kontaminierte Kleidung wechseln</li></ol>"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit-002",
+      "title": "Modul 2: Vertiefung & Test",
+      "order": 2,
+      "slides": [
+        {
+          "id": "slide-006",
+          "order": 1,
+          "type": "interactive",
+          "title": "Zuordnen: Maßnahmen kategorisieren",
+          "scorm_objective_id": "obj-006",
+          "content": {
+            "interaction_type": "drag_drop",
+            "instructions": "Ziehen Sie die Schutzmaßnahmen in die richtige Kategorie.",
+            "completion_condition": "all_correct",
+            "drag_items": [
+              { "id": "di-001", "text": "Schutzhelm tragen",         "correct_zone": "zone-persoenlich" },
+              { "id": "di-002", "text": "Sicherheitsunterweisung",   "correct_zone": "zone-organisatorisch" },
+              { "id": "di-003", "text": "Maschinenschutzgitter",      "correct_zone": "zone-technisch" },
+              { "id": "di-004", "text": "Betriebsanweisung erstellen","correct_zone": "zone-organisatorisch" },
+              { "id": "di-005", "text": "Sicherheitsschuhe",          "correct_zone": "zone-persoenlich" },
+              { "id": "di-006", "text": "Lärmschutzkapselung",        "correct_zone": "zone-technisch" }
+            ],
+            "drop_zones": [
+              { "id": "zone-technisch",       "label": "Technisch" },
+              { "id": "zone-organisatorisch", "label": "Organisatorisch" },
+              { "id": "zone-persoenlich",     "label": "Persönlich" }
+            ]
+          }
+        },
+        {
+          "id": "slide-007",
+          "order": 2,
+          "type": "interactive",
+          "title": "Gefahren erkennen: Bildmarkierung",
+          "scorm_objective_id": "obj-007",
+          "content": {
+            "interaction_type": "hotspot",
+            "instructions": "Klicken Sie auf alle Gefahrenquellen im folgenden Bild. Es gibt 3 richtige Bereiche.",
+            "background_image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
+            "completion_condition": "all_correct_found",
+            "hotspots": [
+              {
+                "id": "hs-001",
+                "x_percent": 20,
+                "y_percent": 75,
+                "radius_px": 4,
+                "label": "Kabel auf dem Boden",
+                "feedback": "Richtig! Kabel müssen gesichert oder verlegt werden.",
+                "correct": true
+              },
+              {
+                "id": "hs-002",
+                "x_percent": 65,
+                "y_percent": 30,
+                "radius_px": 4,
+                "label": "Fehlende Absperrung",
+                "feedback": "Richtig! Gefahrenbereiche müssen abgesperrt sein.",
+                "correct": true
+              },
+              {
+                "id": "hs-003",
+                "x_percent": 45,
+                "y_percent": 55,
+                "radius_px": 4,
+                "label": "Ungeschützte Kante",
+                "feedback": "Richtig! Scharfe Kanten müssen abgedeckt werden.",
+                "correct": true
+              },
+              {
+                "id": "hs-004",
+                "x_percent": 80,
+                "y_percent": 20,
+                "radius_px": 4,
+                "label": "Ordentlich aufgeräumter Bereich",
+                "feedback": "Das ist keine Gefahr – hier ist alles in Ordnung.",
+                "correct": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "slide-008",
+          "order": 3,
+          "type": "quiz",
+          "title": "Wissenstest: Arbeitssicherheit",
+          "scorm_objective_id": "obj-008",
+          "content": {
+            "instructions": "Beantworten Sie alle Fragen. Sie benötigen mindestens 80% zum Bestehen.",
+            "passing_score": 80,
+            "max_attempts": 3,
+            "shuffle_questions": false,
+            "shuffle_answers": true,
+            "show_feedback": true,
+            "questions": [
+              {
+                "id": "q-001",
+                "type": "single_choice",
+                "text": "Was ist der erste Schritt bei einem Arbeitsunfall?",
+                "weight": 1,
+                "answers": [
+                  { "id": "a-001-1", "text": "Ersthelfer und Notruf alarmieren",        "correct": true,  "feedback": "Richtig! Medizinische Hilfe hat oberste Priorität." },
+                  { "id": "a-001-2", "text": "Weiterarbeiten und später melden",         "correct": false, "feedback": "Falsch. Die Arbeit muss sofort unterbrochen werden." },
+                  { "id": "a-001-3", "text": "Verletzte Person bewegen",                 "correct": false, "feedback": "Falsch. Verletzte nur bewegen, wenn unmittelbare Gefahr besteht." },
+                  { "id": "a-001-4", "text": "Unfallort reinigen",                       "correct": false, "feedback": "Falsch. Der Unfallort darf nicht verändert werden." }
+                ]
+              },
+              {
+                "id": "q-002",
+                "type": "multiple_choice",
+                "text": "Welche Aussagen zur persönlichen Schutzausrüstung (PSA) sind korrekt? (Mehrfachauswahl)",
+                "weight": 2,
+                "answers": [
+                  { "id": "a-002-1", "text": "PSA ersetzt technische Schutzmaßnahmen vollständig",   "correct": false, "feedback": "Falsch. PSA ist nur die letzte Schutzebene." },
+                  { "id": "a-002-2", "text": "PSA muss vom Arbeitgeber kostenlos bereitgestellt werden", "correct": true, "feedback": "Richtig. Dies ist gesetzlich vorgeschrieben." },
+                  { "id": "a-002-3", "text": "PSA muss regelmäßig auf Schäden geprüft werden",        "correct": true, "feedback": "Richtig. Beschädigte PSA darf nicht verwendet werden." },
+                  { "id": "a-002-4", "text": "PSA gilt als ultima ratio im Schutzstufenmodell",       "correct": true, "feedback": "Richtig. T-O-P: Technisch, Organisatorisch, Persönlich." }
+                ]
+              },
+              {
+                "id": "q-003",
+                "type": "true_false",
+                "text": "Im Brandfall sollte man den Aufzug benutzen, um schneller ins Freie zu gelangen.",
+                "weight": 1,
+                "correct_answer": false,
+                "feedback_correct": "Richtig! Aufzüge dürfen im Brandfall niemals benutzt werden.",
+                "feedback_incorrect": "Falsch! Aufzüge dürfen im Brandfall niemals benutzt werden – immer Treppen nutzen."
+              },
+              {
+                "id": "q-004",
+                "type": "single_choice",
+                "text": "Was bedeutet die Abkürzung 'PSA' im Arbeitsschutz?",
+                "weight": 1,
+                "answers": [
+                  { "id": "a-004-1", "text": "Persönliche Schutzausrüstung",         "correct": true,  "feedback": "Korrekt!" },
+                  { "id": "a-004-2", "text": "Präventive Sicherheitsanalyse",        "correct": false, "feedback": "Falsch." },
+                  { "id": "a-004-3", "text": "Produktionssicherheitsanweisung",      "correct": false, "feedback": "Falsch." },
+                  { "id": "a-004-4", "text": "Professionelle Schutzausbildung",      "correct": false, "feedback": "Falsch." }
+                ]
+              },
+              {
+                "id": "q-005",
+                "type": "true_false",
+                "text": "Auch kleine Verletzungen am Arbeitsplatz müssen im Verbandbuch dokumentiert werden.",
+                "weight": 1,
+                "correct_answer": true,
+                "feedback_correct": "Richtig! Alle Verletzungen – auch Bagatellen – müssen dokumentiert werden.",
+                "feedback_incorrect": "Falsch. Jede Verletzung muss dokumentiert werden."
+              }
+            ]
+          }
+        },
+        {
+          "id": "slide-009",
+          "order": 4,
+          "type": "html",
+          "title": "Kursabschluss",
+          "scorm_objective_id": "obj-009",
+          "content": {
+            "html": "<h2 style=\"text-align:center\">Herzlichen Glückwunsch!</h2><p style=\"text-align:center;font-size:1.2rem\">Sie haben alle Lerneinheiten abgeschlossen.</p><hr style=\"margin:1.5rem 0\"><p>In diesem Kurs haben Sie gelernt:</p><ul><li>✅ Die drei Kategorien von Schutzmaßnahmen (Technisch – Organisatorisch – Persönlich)</li><li>✅ Das richtige Verhalten in Notfallsituationen</li><li>✅ Gefahren am Arbeitsplatz zu erkennen</li><li>✅ Die Bedeutung der PSA</li></ul><p style=\"margin-top:1.5rem\">Klicken Sie auf <strong>Kurs abschließen</strong>, um Ihr Ergebnis zu speichern.</p>",
+            "layout": "default",
+            "background_color": "#ffffff"
+          }
+        }
+      ]
+    }
+  ]
+}

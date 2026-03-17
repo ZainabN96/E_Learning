@@ -1,0 +1,7 @@
+{
+  "admin_password_hash": "$2y$10$ShGd7f6WwU8q3y3OaCVqYOSTWmJ.JdZSEQP.Ye4sx3XRg58DFKhju",
+  "language": "en",
+  "platform_title": "E-Learning Platform",
+  "max_upload_mb": 9000,
+  "courses_per_page": 20
+}

@@ -1,0 +1,22 @@
+Options -Indexes
+
+# Block direct access to data directory (JSON files)
+RewriteEngine On
+RewriteRule ^data/ - [F,L]
+RewriteRule ^core/ - [F,L]
+
+# Block .json files everywhere
+<FilesMatch "\.json$">
+    Order deny,allow
+    Deny from all
+</FilesMatch>
+
+# No caching for PHP responses
+<FilesMatch "\.php$">
+    Header set Cache-Control "no-store, no-cache, must-revalidate"
+    Header set Pragma "no-cache"
+</FilesMatch>
+
+# Security headers
+Header always set X-Content-Type-Options "nosniff"
+Header always set X-Frame-Options "SAMEORIGIN"

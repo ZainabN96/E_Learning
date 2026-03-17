@@ -1,0 +1,10 @@
+{
+    "id": "user-245ae4f1",
+    "name": "Zainab Naveed",
+    "email": "zainabnaveed.hcc@gmail.com",
+    "phone": "3134100158",
+    "role": "trainer",
+    "created_at": "2026-03-16T09:37:49+01:00",
+    "password_hash": "$2y$10$E5Aq5LWhVgLJ8vPb//ttLu46ImU3fFbb8TQ81QXGW6bGReZFoHZG2",
+    "updated_at": "2026-03-16T09:37:49+01:00"
+}

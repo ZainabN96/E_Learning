@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(for f in register.php login.php student/browse.php student/api/enroll.php student/dashboard.php admin/batch-edit.php)",
+      "Bash(do)",
+      "Bash(/d/xampp2/php/php.exe:*)",
+      "Bash(grep:*)",
+      "Bash(for f in d:/xampp2/htdocs/E_Learning/trainer/*.php d:/xampp2/htdocs/E_Learning/admin/*.php)",
+      "Bash(do /d/xampp2/php/php.exe -l \"$f\")",
+      "Bash(done)"
+    ]
+  }
+}
