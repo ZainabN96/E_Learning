@@ -1,0 +1,10 @@
+{
+    "id": "student-ali",
+    "name": "Ali Raza",
+    "email": "ali@student.local",
+    "role": "student",
+    "phone": "",
+    "password_hash": "$2y$10$SDuZtQum9PhFDEvdNDS.3OZfLGmdnsd0jDRyclr0taBh1EKV2Vvz.",
+    "created_at": "2026-03-18T08:01:00+01:00",
+    "updated_at": "2026-03-18T08:01:00+01:00"
+}

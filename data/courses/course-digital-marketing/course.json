@@ -1,0 +1,191 @@
+{
+    "id": "course-digital-marketing",
+    "version": "1.0",
+    "created_at": "2026-03-18T08:01:00+01:00",
+    "updated_at": "2026-03-18T08:01:00+01:00",
+    "metadata": {
+        "title": "Digital Marketing Essentials",
+        "description": "Learn SEO, social media marketing, email campaigns and content strategy to grow your online presence.",
+        "language": "en",
+        "duration_minutes": 100,
+        "author": "Sara Khan",
+        "tags": [
+            "marketing",
+            "seo",
+            "social media",
+            "digital"
+        ]
+    },
+    "scorm": {
+        "version": "1.2",
+        "masteryScore": 70,
+        "maxTimeAllowed": "03:00:00",
+        "timeLimitAction": "continue,message"
+    },
+    "units": [
+        {
+            "id": "unit-dm-01",
+            "title": "Module 1: SEO & Content",
+            "order": 1,
+            "slides": [
+                {
+                    "id": "dm-s01",
+                    "order": 1,
+                    "type": "html",
+                    "title": "What is SEO?",
+                    "content": {
+                        "html": "<h2>Search Engine Optimization (SEO)</h2><p>SEO is the practice of optimizing your website so it ranks higher in search engine results, driving <strong>organic (free) traffic</strong>.</p><div style=\"background:#dbeafe;padding:1rem;border-radius:8px;border-left:4px solid #2563eb\"><p>💡 <strong>Fact:</strong> The #1 result on Google gets ~28% of all clicks. Position #2 gets ~15%.</p></div><p>Two main areas: <strong>On-page SEO</strong> (your content) and <strong>Off-page SEO</strong> (external links).</p>",
+                        "layout": "default"
+                    }
+                },
+                {
+                    "id": "dm-s02",
+                    "order": 2,
+                    "type": "interactive",
+                    "title": "SEO Pillars",
+                    "content": {
+                        "interaction_type": "tabs",
+                        "instructions": "Explore the three pillars of SEO.",
+                        "completion_condition": "all_tabs_visited",
+                        "tabs": [
+                            {
+                                "id": "dmt1",
+                                "label": "Technical SEO",
+                                "html": "<h3>Technical SEO</h3><ul><li>Page load speed (Core Web Vitals)</li><li>Mobile-friendly design</li><li>HTTPS / SSL certificate</li><li>XML sitemap &amp; robots.txt</li></ul>"
+                            },
+                            {
+                                "id": "dmt2",
+                                "label": "On-Page SEO",
+                                "html": "<h3>On-Page SEO</h3><ul><li>Keyword research &amp; placement</li><li>Title tags &amp; meta descriptions</li><li>Header tags (H1, H2, H3)</li><li>Internal linking strategy</li></ul>"
+                            },
+                            {
+                                "id": "dmt3",
+                                "label": "Off-Page SEO",
+                                "html": "<h3>Off-Page SEO</h3><ul><li>Backlinks from authoritative sites</li><li>Social signals</li><li>Brand mentions</li><li>Guest blogging</li></ul>"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-s03",
+                    "order": 3,
+                    "type": "html",
+                    "title": "Content Strategy",
+                    "content": {
+                        "html": "<h2>Content Marketing Strategy</h2><p>Great content answers your audience questions and builds trust.</p><ol><li><strong>Identify your audience</strong> — demographics, pain points</li><li><strong>Keyword research</strong> — what are they searching for?</li><li><strong>Content calendar</strong> — consistent publishing schedule</li><li><strong>Formats</strong> — blog posts, videos, infographics, podcasts</li><li><strong>Measure</strong> — traffic, bounce rate, conversions</li></ol>",
+                        "layout": "default"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "unit-dm-02",
+            "title": "Module 2: Social Media & Email",
+            "order": 2,
+            "slides": [
+                {
+                    "id": "dm-s04",
+                    "order": 1,
+                    "type": "html",
+                    "title": "Social Media Marketing",
+                    "content": {
+                        "html": "<h2>Social Media Marketing</h2><p>Choose platforms where your audience lives:</p><ul><li><strong>Facebook / Instagram</strong> — visual content, B2C, broad audiences</li><li><strong>LinkedIn</strong> — B2B, professional networking</li><li><strong>TikTok / Reels</strong> — short video, Gen Z, viral potential</li><li><strong>Twitter/X</strong> — news, real-time, thought leadership</li></ul><p>Key metrics: <em>reach, engagement rate, click-through rate (CTR)</em>.</p>",
+                        "layout": "default"
+                    }
+                },
+                {
+                    "id": "dm-s05",
+                    "order": 2,
+                    "type": "html",
+                    "title": "Email Marketing",
+                    "content": {
+                        "html": "<h2>Email Marketing</h2><p>Email delivers <strong>$42 ROI for every $1 spent</strong> — highest of any channel.</p><ol><li>Build your list organically (opt-ins, lead magnets)</li><li>Segment subscribers by behavior/interest</li><li>Write compelling subject lines (30–50 chars)</li><li>Clear single CTA per email</li><li>A/B test subject lines and send times</li></ol>",
+                        "layout": "default"
+                    }
+                },
+                {
+                    "id": "dm-s06",
+                    "order": 3,
+                    "type": "quiz",
+                    "title": "Digital Marketing Quiz",
+                    "content": {
+                        "instructions": "Test your digital marketing knowledge.",
+                        "passing_score": 70,
+                        "max_attempts": 3,
+                        "shuffle_answers": true,
+                        "show_feedback": true,
+                        "questions": [
+                            {
+                                "id": "dmq1",
+                                "type": "single_choice",
+                                "text": "What does SEO stand for?",
+                                "weight": 1,
+                                "answers": [
+                                    {
+                                        "id": "dmqa",
+                                        "text": "Search Engine Optimization",
+                                        "correct": true,
+                                        "feedback": "Correct!"
+                                    },
+                                    {
+                                        "id": "dmqb",
+                                        "text": "Social Engagement Outreach",
+                                        "correct": false,
+                                        "feedback": "Wrong."
+                                    },
+                                    {
+                                        "id": "dmqc",
+                                        "text": "Sales Engagement Operations",
+                                        "correct": false,
+                                        "feedback": "Wrong."
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "dmq2",
+                                "type": "true_false",
+                                "text": "Email marketing has the highest ROI of any digital marketing channel.",
+                                "weight": 1,
+                                "correct_answer": true,
+                                "feedback_correct": "Correct! ~$42 per $1 spent.",
+                                "feedback_incorrect": "Wrong. Email ROI is $42 per $1."
+                            },
+                            {
+                                "id": "dmq3",
+                                "type": "multiple_choice",
+                                "text": "Which platforms are suitable for B2B marketing?",
+                                "weight": 2,
+                                "answers": [
+                                    {
+                                        "id": "dmqca",
+                                        "text": "LinkedIn",
+                                        "correct": true,
+                                        "feedback": "Yes, #1 B2B platform"
+                                    },
+                                    {
+                                        "id": "dmqcb",
+                                        "text": "TikTok",
+                                        "correct": false,
+                                        "feedback": "Mostly B2C"
+                                    },
+                                    {
+                                        "id": "dmqcc",
+                                        "text": "Email",
+                                        "correct": true,
+                                        "feedback": "Yes, email works great for B2B"
+                                    },
+                                    {
+                                        "id": "dmqcd",
+                                        "text": "Twitter/X",
+                                        "correct": true,
+                                        "feedback": "Yes, for thought leadership"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

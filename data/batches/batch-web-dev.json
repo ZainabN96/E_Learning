@@ -1,0 +1,18 @@
+{
+    "id": "batch-web-dev",
+    "name": "Web Dev Batch A",
+    "course_id": "course-web-dev",
+    "trainer_id": "trainer-ahmed",
+    "start_date": "2026-04-01",
+    "end_date": "2026-06-30",
+    "status": "upcoming",
+    "student_ids": [
+        "student-fatima",
+        "student-ali",
+        "student-ayesha",
+        "student-hassan"
+    ],
+    "open_enrollment": false,
+    "created_at": "2026-03-18T08:01:00+01:00",
+    "updated_at": "2026-03-18T08:01:00+01:00"
+}

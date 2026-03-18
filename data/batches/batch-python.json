@@ -1,0 +1,18 @@
+{
+    "id": "batch-python",
+    "name": "Python Batch A",
+    "course_id": "course-python",
+    "trainer_id": "trainer-ahmed",
+    "start_date": "2026-04-01",
+    "end_date": "2026-07-31",
+    "status": "upcoming",
+    "student_ids": [
+        "student-nadia",
+        "student-imran",
+        "student-fatima",
+        "student-ali"
+    ],
+    "open_enrollment": false,
+    "created_at": "2026-03-18T08:01:00+01:00",
+    "updated_at": "2026-03-18T08:01:00+01:00"
+}

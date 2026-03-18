@@ -1,0 +1,10 @@
+{
+    "id": "assign-wd-01",
+    "title": "Build a Personal HTML Page",
+    "description": "Create an HTML page with a heading, about section, and a list of your skills. Use at least 5 different HTML tags.",
+    "due_date": "2026-04-15",
+    "max_marks": 20,
+    "batch_id": "batch-web-dev",
+    "created_at": "2026-03-18T08:01:00+01:00",
+    "updated_at": "2026-03-18T08:01:00+01:00"
+}

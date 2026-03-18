@@ -1,0 +1,185 @@
+{
+    "id": "course-graphic-design",
+    "version": "1.0",
+    "created_at": "2026-03-18T08:01:00+01:00",
+    "updated_at": "2026-03-18T08:01:00+01:00",
+    "metadata": {
+        "title": "Graphic Design Basics",
+        "description": "Learn the fundamental principles of design: color theory, typography, layout, and how to use digital design tools.",
+        "language": "en",
+        "duration_minutes": 90,
+        "author": "Sara Khan",
+        "tags": [
+            "design",
+            "graphic",
+            "typography",
+            "color"
+        ]
+    },
+    "scorm": {
+        "version": "1.2",
+        "masteryScore": 70,
+        "maxTimeAllowed": "03:00:00",
+        "timeLimitAction": "continue,message"
+    },
+    "units": [
+        {
+            "id": "unit-gd-01",
+            "title": "Module 1: Design Principles",
+            "order": 1,
+            "slides": [
+                {
+                    "id": "gd-s01",
+                    "order": 1,
+                    "type": "html",
+                    "title": "The Elements of Design",
+                    "content": {
+                        "html": "<h2>7 Elements of Design</h2><p>Every design is built from these fundamentals:</p><ol><li><strong>Line</strong> — direction, movement, separation</li><li><strong>Shape</strong> — geometric or organic forms</li><li><strong>Color</strong> — emotion, hierarchy, branding</li><li><strong>Texture</strong> — visual or tactile quality</li><li><strong>Space</strong> — negative &amp; positive space</li><li><strong>Type</strong> — font choice and hierarchy</li><li><strong>Image</strong> — photography, illustration</li></ol>",
+                        "layout": "default"
+                    }
+                },
+                {
+                    "id": "gd-s02",
+                    "order": 2,
+                    "type": "interactive",
+                    "title": "Color Theory",
+                    "content": {
+                        "interaction_type": "accordion",
+                        "instructions": "Learn color theory by opening each section.",
+                        "completion_condition": "all_panels_opened",
+                        "panels": [
+                            {
+                                "id": "gdp1",
+                                "label": "Color Wheel",
+                                "html": "<p><strong>Primary</strong>: Red, Blue, Yellow<br><strong>Secondary</strong>: Orange, Green, Purple<br><strong>Tertiary</strong>: Mixes of primary + secondary</p>"
+                            },
+                            {
+                                "id": "gdp2",
+                                "label": "Color Harmony",
+                                "html": "<ul><li><strong>Complementary</strong>: Opposite colors (red + green)</li><li><strong>Analogous</strong>: Adjacent colors (blue, blue-green, green)</li><li><strong>Triadic</strong>: Three equally spaced colors</li></ul>"
+                            },
+                            {
+                                "id": "gdp3",
+                                "label": "Color Psychology",
+                                "html": "<ul><li>🔴 Red — energy, urgency, passion</li><li>🔵 Blue — trust, calm, professionalism</li><li>🟡 Yellow — optimism, attention, caution</li><li>🟢 Green — growth, health, nature</li></ul>"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gd-s03",
+                    "order": 3,
+                    "type": "html",
+                    "title": "Typography",
+                    "content": {
+                        "html": "<h2>Typography Fundamentals</h2><p>Type communicates before it is even read. Key concepts:</p><ul><li><strong>Typefaces</strong>: Serif (Times), Sans-serif (Arial), Display, Script</li><li><strong>Hierarchy</strong>: Differentiate headings, body, captions using size and weight</li><li><strong>Kerning</strong>: Space between individual letters</li><li><strong>Leading</strong>: Space between lines (line-height)</li><li><strong>Rule of thumb</strong>: Use maximum 2-3 typefaces per design</li></ul>",
+                        "layout": "default"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "unit-gd-02",
+            "title": "Module 2: Tools & Practice",
+            "order": 2,
+            "slides": [
+                {
+                    "id": "gd-s04",
+                    "order": 1,
+                    "type": "html",
+                    "title": "Design Tools",
+                    "content": {
+                        "html": "<h2>Popular Design Tools</h2><ul><li><strong>Canva</strong> — beginner-friendly, browser-based, free tier</li><li><strong>Adobe Photoshop</strong> — photo editing &amp; raster graphics</li><li><strong>Adobe Illustrator</strong> — vector graphics &amp; logos</li><li><strong>Figma</strong> — UI/UX design, collaboration, prototyping</li></ul><p>Start with <strong>Canva</strong> to practice design principles without a steep learning curve.</p>",
+                        "layout": "default"
+                    }
+                },
+                {
+                    "id": "gd-s05",
+                    "order": 2,
+                    "type": "html",
+                    "title": "Design Workflow",
+                    "content": {
+                        "html": "<h2>The Design Process</h2><ol><li><strong>Brief</strong> — understand the objective and audience</li><li><strong>Research</strong> — competitors, inspiration (Behance, Dribbble)</li><li><strong>Sketch</strong> — rough wireframes on paper</li><li><strong>Design</strong> — create in your chosen tool</li><li><strong>Feedback</strong> — iterate with client or stakeholder</li><li><strong>Export</strong> — correct formats (PNG, SVG, PDF)</li></ol>",
+                        "layout": "default"
+                    }
+                },
+                {
+                    "id": "gd-s06",
+                    "order": 3,
+                    "type": "quiz",
+                    "title": "Graphic Design Quiz",
+                    "content": {
+                        "instructions": "Test your design knowledge.",
+                        "passing_score": 70,
+                        "max_attempts": 3,
+                        "shuffle_answers": true,
+                        "show_feedback": true,
+                        "questions": [
+                            {
+                                "id": "gdq1",
+                                "type": "single_choice",
+                                "text": "Which color combination is complementary?",
+                                "weight": 1,
+                                "answers": [
+                                    {
+                                        "id": "gdqa",
+                                        "text": "Red and Green",
+                                        "correct": true,
+                                        "feedback": "Correct! Opposite on the color wheel."
+                                    },
+                                    {
+                                        "id": "gdqb",
+                                        "text": "Blue and Green",
+                                        "correct": false,
+                                        "feedback": "Those are analogous."
+                                    },
+                                    {
+                                        "id": "gdqc",
+                                        "text": "Red and Orange",
+                                        "correct": false,
+                                        "feedback": "Those are analogous."
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "gdq2",
+                                "type": "true_false",
+                                "text": "You should use as many typefaces as possible in a single design.",
+                                "weight": 1,
+                                "correct_answer": false,
+                                "feedback_correct": "Correct! Max 2-3 typefaces per design.",
+                                "feedback_incorrect": "Wrong. Use max 2-3 typefaces."
+                            },
+                            {
+                                "id": "gdq3",
+                                "type": "single_choice",
+                                "text": "Which tool is best for creating scalable vector logos?",
+                                "weight": 1,
+                                "answers": [
+                                    {
+                                        "id": "gdqca",
+                                        "text": "Adobe Illustrator",
+                                        "correct": true,
+                                        "feedback": "Correct! Illustrator is built for vector graphics."
+                                    },
+                                    {
+                                        "id": "gdqcb",
+                                        "text": "Photoshop",
+                                        "correct": false,
+                                        "feedback": "Photoshop is for raster/photo editing."
+                                    },
+                                    {
+                                        "id": "gdqcc",
+                                        "text": "Notepad",
+                                        "correct": false,
+                                        "feedback": "Not a design tool."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

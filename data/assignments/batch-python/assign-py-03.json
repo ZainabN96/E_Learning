@@ -1,0 +1,10 @@
+{
+    "id": "assign-py-03",
+    "title": "OOP Bank Account",
+    "description": "Build a BankAccount class with deposit, withdraw, and balance methods. Demonstrate inheritance with SavingsAccount.",
+    "due_date": "2026-06-15",
+    "max_marks": 30,
+    "batch_id": "batch-python",
+    "created_at": "2026-03-18T08:01:00+01:00",
+    "updated_at": "2026-03-18T08:01:00+01:00"
+}

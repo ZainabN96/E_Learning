@@ -1,0 +1,235 @@
+{
+    "id": "course-web-dev",
+    "version": "1.0",
+    "created_at": "2026-03-18T08:01:00+01:00",
+    "updated_at": "2026-03-18T08:01:00+01:00",
+    "metadata": {
+        "title": "Web Development Fundamentals",
+        "description": "Learn HTML, CSS, and JavaScript from scratch. Build your first web pages and understand how the web works.",
+        "language": "en",
+        "duration_minutes": 120,
+        "author": "Ahmed Hassan",
+        "tags": [
+            "html",
+            "css",
+            "javascript",
+            "web"
+        ]
+    },
+    "scorm": {
+        "version": "1.2",
+        "masteryScore": 70,
+        "maxTimeAllowed": "03:00:00",
+        "timeLimitAction": "continue,message"
+    },
+    "units": [
+        {
+            "id": "unit-wd-01",
+            "title": "Module 1: HTML & CSS",
+            "order": 1,
+            "slides": [
+                {
+                    "id": "wd-s01",
+                    "order": 1,
+                    "type": "html",
+                    "title": "Welcome to Web Development",
+                    "content": {
+                        "html": "<h2>Welcome to Web Development!</h2><p>The web is built on three core technologies:</p><ul><li><strong>HTML</strong> — Structure &amp; Content</li><li><strong>CSS</strong> — Styling &amp; Layout</li><li><strong>JavaScript</strong> — Interactivity &amp; Logic</li></ul><p>By the end of this course you will be able to build fully functioning web pages from scratch.</p>",
+                        "layout": "default"
+                    }
+                },
+                {
+                    "id": "wd-s02",
+                    "order": 2,
+                    "type": "html",
+                    "title": "HTML Structure",
+                    "content": {
+                        "html": "<h2>HTML Document Structure</h2><pre style=\"background:#f3f4f6;padding:1rem;border-radius:6px;font-size:.85rem\">&lt;!DOCTYPE html&gt;\\n&lt;html&gt;\\n  &lt;head&gt;\\n    &lt;title&gt;My Page&lt;/title&gt;\\n  &lt;/head&gt;\\n  &lt;body&gt;\\n    &lt;h1&gt;Hello World&lt;/h1&gt;\\n    &lt;p&gt;My first paragraph.&lt;/p&gt;\\n  &lt;/body&gt;\\n&lt;/html&gt;</pre><p>Key tags: <strong>h1-h6</strong> headings, <strong>p</strong> paragraphs, <strong>a</strong> links, <strong>img</strong> images, <strong>div / span</strong> containers.</p>",
+                        "layout": "default"
+                    }
+                },
+                {
+                    "id": "wd-s03",
+                    "order": 3,
+                    "type": "interactive",
+                    "title": "CSS Concepts",
+                    "content": {
+                        "interaction_type": "tabs",
+                        "instructions": "Click each tab to learn about CSS.",
+                        "completion_condition": "all_tabs_visited",
+                        "tabs": [
+                            {
+                                "id": "tab-css1",
+                                "label": "Selectors",
+                                "html": "<h3>CSS Selectors</h3><ul><li><code>p { }</code> — selects all paragraphs</li><li><code>.class { }</code> — class selector</li><li><code>#id { }</code> — ID selector</li></ul>"
+                            },
+                            {
+                                "id": "tab-css2",
+                                "label": "Box Model",
+                                "html": "<h3>The Box Model</h3><p>Every element is a box: <strong>content → padding → border → margin</strong>. Use <code>box-sizing: border-box</code> for predictable sizing."
+                            },
+                            {
+                                "id": "tab-css3",
+                                "label": "Flexbox",
+                                "html": "<h3>Flexbox Layout</h3><p>Use <code>display: flex</code> to create flexible layouts. Key properties: <code>justify-content</code>, <code>align-items</code>, <code>flex-wrap</code>, <code>gap</code>."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "wd-s04",
+                    "order": 4,
+                    "type": "quiz",
+                    "title": "HTML & CSS Quiz",
+                    "content": {
+                        "instructions": "Answer all questions. 70% needed to pass.",
+                        "passing_score": 70,
+                        "max_attempts": 3,
+                        "shuffle_answers": true,
+                        "show_feedback": true,
+                        "questions": [
+                            {
+                                "id": "wdq1",
+                                "type": "single_choice",
+                                "text": "Which tag creates the largest heading?",
+                                "weight": 1,
+                                "answers": [
+                                    {
+                                        "id": "wda1a",
+                                        "text": "<h1>",
+                                        "correct": true,
+                                        "feedback": "Correct!"
+                                    },
+                                    {
+                                        "id": "wda1b",
+                                        "text": "<h6>",
+                                        "correct": false,
+                                        "feedback": "h6 is smallest."
+                                    },
+                                    {
+                                        "id": "wda1c",
+                                        "text": "<big>",
+                                        "correct": false,
+                                        "feedback": "Not a standard heading tag."
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "wdq2",
+                                "type": "true_false",
+                                "text": "CSS stands for Cascading Style Sheets.",
+                                "weight": 1,
+                                "correct_answer": true,
+                                "feedback_correct": "Correct!",
+                                "feedback_incorrect": "Wrong. CSS = Cascading Style Sheets."
+                            },
+                            {
+                                "id": "wdq3",
+                                "type": "single_choice",
+                                "text": "Which CSS property controls text color?",
+                                "weight": 1,
+                                "answers": [
+                                    {
+                                        "id": "wda3a",
+                                        "text": "color",
+                                        "correct": true,
+                                        "feedback": "Correct!"
+                                    },
+                                    {
+                                        "id": "wda3b",
+                                        "text": "font-color",
+                                        "correct": false,
+                                        "feedback": "Not a valid property."
+                                    },
+                                    {
+                                        "id": "wda3c",
+                                        "text": "text-color",
+                                        "correct": false,
+                                        "feedback": "Not a valid property."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "unit-wd-02",
+            "title": "Module 2: JavaScript",
+            "order": 2,
+            "slides": [
+                {
+                    "id": "wd-s05",
+                    "order": 1,
+                    "type": "html",
+                    "title": "JavaScript Basics",
+                    "content": {
+                        "html": "<h2>JavaScript Basics</h2><p>JavaScript adds <strong>interactivity</strong> to web pages. Core concepts:</p><ul><li><strong>Variables</strong>: <code>let name = \"Ahmed\";</code></li><li><strong>Functions</strong>: <code>function greet() { alert(\"Hi!\"); }</code></li><li><strong>Events</strong>: <code>button.addEventListener(\"click\", greet);</code></li><li><strong>DOM</strong>: <code>document.getElementById(\"demo\").textContent = \"Hello\";</code></li></ul>",
+                        "layout": "default"
+                    }
+                },
+                {
+                    "id": "wd-s06",
+                    "order": 2,
+                    "type": "quiz",
+                    "title": "JavaScript Quiz",
+                    "content": {
+                        "instructions": "Test your JS knowledge.",
+                        "passing_score": 70,
+                        "max_attempts": 3,
+                        "shuffle_answers": true,
+                        "show_feedback": true,
+                        "questions": [
+                            {
+                                "id": "wdq4",
+                                "type": "single_choice",
+                                "text": "How do you declare a variable in modern JavaScript?",
+                                "weight": 1,
+                                "answers": [
+                                    {
+                                        "id": "wda4a",
+                                        "text": "let x = 5;",
+                                        "correct": true,
+                                        "feedback": "Correct!"
+                                    },
+                                    {
+                                        "id": "wda4b",
+                                        "text": "variable x = 5;",
+                                        "correct": false,
+                                        "feedback": "Wrong keyword."
+                                    },
+                                    {
+                                        "id": "wda4c",
+                                        "text": "dim x = 5;",
+                                        "correct": false,
+                                        "feedback": "That is VBA, not JS."
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "wdq5",
+                                "type": "true_false",
+                                "text": "JavaScript can modify HTML content dynamically.",
+                                "weight": 1,
+                                "correct_answer": true,
+                                "feedback_correct": "Correct! That is the DOM API.",
+                                "feedback_incorrect": "Wrong."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "wd-s07",
+                    "order": 3,
+                    "type": "html",
+                    "title": "Course Completion",
+                    "content": {
+                        "html": "<h2 style=\"text-align:center\">Congratulations!</h2><p style=\"text-align:center\">You have completed Web Development Fundamentals.</p><ul><li>✅ HTML structure and common tags</li><li>✅ CSS selectors, box model, flexbox</li><li>✅ JavaScript variables, functions, events</li></ul>",
+                        "layout": "default"
+                    }
+                }
+            ]
+        }
+    ]
+}

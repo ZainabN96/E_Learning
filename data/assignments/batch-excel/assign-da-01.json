@@ -1,0 +1,10 @@
+{
+    "id": "assign-da-01",
+    "title": "Sales Data Formulas",
+    "description": "Given a sales dataset, use SUM, AVERAGE, MAX, MIN and COUNTIF to generate a summary report. Submit the Excel file.",
+    "due_date": "2026-02-20",
+    "max_marks": 20,
+    "batch_id": "batch-excel",
+    "created_at": "2026-03-18T08:01:00+01:00",
+    "updated_at": "2026-03-18T08:01:00+01:00"
+}

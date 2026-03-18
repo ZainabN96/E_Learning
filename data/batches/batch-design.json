@@ -1,0 +1,18 @@
+{
+    "id": "batch-design",
+    "name": "Graphic Design B1",
+    "course_id": "course-graphic-design",
+    "trainer_id": "trainer-sara",
+    "start_date": "2026-03-15",
+    "end_date": "2026-05-15",
+    "status": "active",
+    "student_ids": [
+        "student-nadia",
+        "student-hassan",
+        "student-sana",
+        "student-rashid"
+    ],
+    "open_enrollment": false,
+    "created_at": "2026-03-18T08:01:00+01:00",
+    "updated_at": "2026-03-18T08:01:00+01:00"
+}

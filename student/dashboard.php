@@ -5,6 +5,7 @@ require_once dirname(__DIR__) . '/core/UserAuth.php';
 require_once dirname(__DIR__) . '/core/BatchRepository.php';
 require_once dirname(__DIR__) . '/core/CourseRepository.php';
 require_once dirname(__DIR__) . '/core/UserRepository.php';
+require_once dirname(__DIR__) . '/core/CertificateRepository.php';
 
 UserAuth::requireStudent();
 $lang          = load_lang();
@@ -16,6 +17,7 @@ $studentName   = UserAuth::userName();
 $batchRepo  = new BatchRepository();
 $courseRepo = new CourseRepository();
 $userRepo   = new UserRepository();
+$certRepo   = new CertificateRepository();
 $batches    = $batchRepo->listBatchesForStudent($studentId);
 $courses    = array_column($courseRepo->listCourses(), null, 'id');
 
@@ -66,12 +68,14 @@ foreach ($batches as $b) {
     if ($avgPct !== null) { $globalGraded++; $globalScorePct += $avgPct; }
 
     $trainerData = $userRepo->getUser($b['trainer_id'] ?? '');
+    $batchCert   = $certRepo->findForStudentBatch($studentId, $bId);
     $batchDetails[$bId] = [
         'present'   => $p, 'absent' => $a, 'late' => $l, 'tracked' => $tracked,
         'attPct'    => $attPct,
         'pending'   => $pending, 'submitted' => $submitted,
         'total'     => count($assignments), 'graded' => $graded, 'avgPct' => $avgPct,
         'trainer'   => $trainerData['name'] ?? '—',
+        'cert'      => $batchCert,
     ];
 }
 
@@ -269,6 +273,14 @@ $activeCount     = count(array_filter($batches, fn($b) => ($b['status'] ?? '') =
                                 <?php if (!empty($b['course_id'])): ?>
                                     <a href="/E_Learning/player/?course=<?= urlencode($b['course_id']) ?>"
                                        target="_blank" class="btn btn--primary btn--sm">▶ Start Course</a>
+                                <?php endif; ?>
+                                <?php if (!empty($d['cert'])): ?>
+                                    <a href="/E_Learning/student/certificate.php?id=<?= urlencode($d['cert']['id']) ?>"
+                                       target="_blank"
+                                       class="btn btn--sm"
+                                       style="background:#fef3c7;color:#92400e;border:1px solid #f59e0b">
+                                        📜 Certificate
+                                    </a>
                                 <?php endif; ?>
                             </div>
                         </div>

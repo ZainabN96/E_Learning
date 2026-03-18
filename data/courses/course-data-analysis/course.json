@@ -1,0 +1,185 @@
+{
+    "id": "course-data-analysis",
+    "version": "1.0",
+    "created_at": "2026-03-18T08:01:00+01:00",
+    "updated_at": "2026-03-18T08:01:00+01:00",
+    "metadata": {
+        "title": "Data Analysis with Excel",
+        "description": "Master Excel for data analysis: formulas, functions, charts, pivot tables and dashboards.",
+        "language": "en",
+        "duration_minutes": 110,
+        "author": "Usman Ali",
+        "tags": [
+            "excel",
+            "data",
+            "analysis",
+            "spreadsheet"
+        ]
+    },
+    "scorm": {
+        "version": "1.2",
+        "masteryScore": 70,
+        "maxTimeAllowed": "03:00:00",
+        "timeLimitAction": "continue,message"
+    },
+    "units": [
+        {
+            "id": "unit-da-01",
+            "title": "Module 1: Excel Basics & Formulas",
+            "order": 1,
+            "slides": [
+                {
+                    "id": "da-s01",
+                    "order": 1,
+                    "type": "html",
+                    "title": "Introduction to Excel",
+                    "content": {
+                        "html": "<h2>Microsoft Excel Overview</h2><p>Excel is the industry-standard tool for data analysis. Core interface elements:</p><ul><li><strong>Workbook</strong> — the file (.xlsx)</li><li><strong>Worksheet</strong> — individual tabs/sheets</li><li><strong>Cell</strong> — intersection of row &amp; column (e.g. B3)</li><li><strong>Range</strong> — group of cells (e.g. A1:D10)</li></ul><p>Always start with <strong>clean, structured data</strong>: one row per record, headers in row 1, no merged cells.</p>",
+                        "layout": "default"
+                    }
+                },
+                {
+                    "id": "da-s02",
+                    "order": 2,
+                    "type": "interactive",
+                    "title": "Key Excel Formulas",
+                    "content": {
+                        "interaction_type": "tabs",
+                        "instructions": "Learn essential Excel formulas by category.",
+                        "completion_condition": "all_tabs_visited",
+                        "tabs": [
+                            {
+                                "id": "dat1",
+                                "label": "Math",
+                                "html": "<h3>Math Functions</h3><ul><li><code>=SUM(A1:A10)</code> — total</li><li><code>=AVERAGE(B1:B10)</code> — mean</li><li><code>=MAX(C1:C10)</code> / <code>=MIN(C1:C10)</code></li><li><code>=ROUND(A1, 2)</code> — round to 2 decimals</li></ul>"
+                            },
+                            {
+                                "id": "dat2",
+                                "label": "Lookup",
+                                "html": "<h3>Lookup Functions</h3><ul><li><code>=VLOOKUP(value, range, col, 0)</code></li><li><code>=XLOOKUP(value, lookup, return)</code> — modern</li><li><code>=INDEX(range, MATCH(val, col, 0))</code></li></ul>"
+                            },
+                            {
+                                "id": "dat3",
+                                "label": "Logic",
+                                "html": "<h3>Logic Functions</h3><ul><li><code>=IF(A1>10, \"High\", \"Low\")</code></li><li><code>=COUNTIF(A1:A10, \"Yes\")</code></li><li><code>=SUMIF(B1:B10, \">100\", C1:C10)</code></li></ul>"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "da-s03",
+                    "order": 3,
+                    "type": "html",
+                    "title": "Data Cleaning",
+                    "content": {
+                        "html": "<h2>Data Cleaning in Excel</h2><p>Raw data is rarely perfect. Common issues and fixes:</p><ul><li><strong>Duplicates</strong>: Data → Remove Duplicates</li><li><strong>Blank cells</strong>: Find &amp; Select → Blanks → fill</li><li><strong>Extra spaces</strong>: <code>=TRIM(A1)</code></li><li><strong>Wrong case</strong>: <code>=PROPER(A1)</code>, <code>=UPPER(A1)</code></li><li><strong>Text numbers</strong>: multiply by 1 or use VALUE()</li></ul>",
+                        "layout": "default"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "unit-da-02",
+            "title": "Module 2: Charts & Pivot Tables",
+            "order": 2,
+            "slides": [
+                {
+                    "id": "da-s04",
+                    "order": 1,
+                    "type": "html",
+                    "title": "Charts & Visualization",
+                    "content": {
+                        "html": "<h2>Creating Charts in Excel</h2><p>Choose the right chart for your data:</p><ul><li><strong>Bar / Column</strong> — compare categories</li><li><strong>Line</strong> — show trends over time</li><li><strong>Pie / Donut</strong> — show proportions (max 5-6 slices)</li><li><strong>Scatter</strong> — show correlations</li></ul><p><strong>Steps:</strong> Select data → Insert → Charts → Choose type → Format → Add title &amp; labels.</p>",
+                        "layout": "default"
+                    }
+                },
+                {
+                    "id": "da-s05",
+                    "order": 2,
+                    "type": "html",
+                    "title": "Pivot Tables",
+                    "content": {
+                        "html": "<h2>Pivot Tables</h2><p>Pivot tables summarize large datasets instantly. Steps:</p><ol><li>Click anywhere in your data range</li><li>Insert → PivotTable → New Sheet</li><li>Drag fields:<ul><li><strong>Rows</strong> — categories (e.g. Region)</li><li><strong>Columns</strong> — sub-categories</li><li><strong>Values</strong> — what to calculate (e.g. SUM of Sales)</li><li><strong>Filters</strong> — slice the view</li></ul></li><li>Right-click → Value Field Settings to change SUM/COUNT/AVERAGE</li></ol>",
+                        "layout": "default"
+                    }
+                },
+                {
+                    "id": "da-s06",
+                    "order": 3,
+                    "type": "quiz",
+                    "title": "Excel Final Quiz",
+                    "content": {
+                        "instructions": "Test your Excel knowledge.",
+                        "passing_score": 70,
+                        "max_attempts": 3,
+                        "shuffle_answers": true,
+                        "show_feedback": true,
+                        "questions": [
+                            {
+                                "id": "daq1",
+                                "type": "single_choice",
+                                "text": "Which formula calculates the average of A1:A10?",
+                                "weight": 1,
+                                "answers": [
+                                    {
+                                        "id": "daqa",
+                                        "text": "=AVERAGE(A1:A10)",
+                                        "correct": true,
+                                        "feedback": "Correct!"
+                                    },
+                                    {
+                                        "id": "daqb",
+                                        "text": "=MEAN(A1:A10)",
+                                        "correct": false,
+                                        "feedback": "MEAN is not an Excel function."
+                                    },
+                                    {
+                                        "id": "daqc",
+                                        "text": "=AVG(A1:A10)",
+                                        "correct": false,
+                                        "feedback": "AVG is not an Excel function."
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "daq2",
+                                "type": "true_false",
+                                "text": "A Pivot Table can summarize thousands of rows in seconds.",
+                                "weight": 1,
+                                "correct_answer": true,
+                                "feedback_correct": "Correct!",
+                                "feedback_incorrect": "Wrong. Pivot tables are designed for exactly that."
+                            },
+                            {
+                                "id": "daq3",
+                                "type": "single_choice",
+                                "text": "Which chart type is best for showing data trends over time?",
+                                "weight": 1,
+                                "answers": [
+                                    {
+                                        "id": "daqca",
+                                        "text": "Line chart",
+                                        "correct": true,
+                                        "feedback": "Correct!"
+                                    },
+                                    {
+                                        "id": "daqcb",
+                                        "text": "Pie chart",
+                                        "correct": false,
+                                        "feedback": "Pie shows proportions, not trends."
+                                    },
+                                    {
+                                        "id": "daqcc",
+                                        "text": "Scatter chart",
+                                        "correct": false,
+                                        "feedback": "Scatter shows correlation, not time trends."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

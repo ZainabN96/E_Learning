@@ -1,0 +1,18 @@
+{
+    "id": "batch-marketing",
+    "name": "Digital Marketing B1",
+    "course_id": "course-digital-marketing",
+    "trainer_id": "trainer-sara",
+    "start_date": "2026-03-01",
+    "end_date": "2026-05-31",
+    "status": "active",
+    "student_ids": [
+        "student-sana",
+        "student-rashid",
+        "student-ayesha",
+        "student-imran"
+    ],
+    "open_enrollment": false,
+    "created_at": "2026-03-18T08:01:00+01:00",
+    "updated_at": "2026-03-18T08:01:00+01:00"
+}

@@ -1,0 +1,18 @@
+{
+    "id": "batch-excel",
+    "name": "Excel Data Analysis",
+    "course_id": "course-data-analysis",
+    "trainer_id": "trainer-usman",
+    "start_date": "2026-02-01",
+    "end_date": "2026-04-30",
+    "status": "active",
+    "student_ids": [
+        "student-fatima",
+        "student-ali",
+        "student-nadia",
+        "student-rashid"
+    ],
+    "open_enrollment": false,
+    "created_at": "2026-03-18T08:01:00+01:00",
+    "updated_at": "2026-03-18T08:01:00+01:00"
+}

@@ -1,0 +1,190 @@
+{
+    "id": "course-python",
+    "version": "1.0",
+    "created_at": "2026-03-18T08:01:00+01:00",
+    "updated_at": "2026-03-18T08:01:00+01:00",
+    "metadata": {
+        "title": "Python Programming",
+        "description": "Master Python from basics to OOP. Write clean, efficient Python code for automation, scripting and data processing.",
+        "language": "en",
+        "duration_minutes": 150,
+        "author": "Ahmed Hassan",
+        "tags": [
+            "python",
+            "programming",
+            "oop"
+        ]
+    },
+    "scorm": {
+        "version": "1.2",
+        "masteryScore": 70,
+        "maxTimeAllowed": "03:00:00",
+        "timeLimitAction": "continue,message"
+    },
+    "units": [
+        {
+            "id": "unit-py-01",
+            "title": "Module 1: Python Basics",
+            "order": 1,
+            "slides": [
+                {
+                    "id": "py-s01",
+                    "order": 1,
+                    "type": "html",
+                    "title": "Introduction to Python",
+                    "content": {
+                        "html": "<h2>Why Python?</h2><ul><li>Simple, readable syntax</li><li>Huge ecosystem (NumPy, Django, TensorFlow…)</li><li>Used in web dev, data science, automation, AI</li></ul><pre style=\"background:#f3f4f6;padding:1rem;border-radius:6px\"><code>print(\"Hello, World!\")\\nname = input(\"Your name: \")\\nprint(f\"Hello, {name}!\")</code></pre>",
+                        "layout": "default"
+                    }
+                },
+                {
+                    "id": "py-s02",
+                    "order": 2,
+                    "type": "interactive",
+                    "title": "Data Types",
+                    "content": {
+                        "interaction_type": "accordion",
+                        "instructions": "Open each section to learn Python data types.",
+                        "completion_condition": "all_panels_opened",
+                        "panels": [
+                            {
+                                "id": "pyp1",
+                                "label": "Numbers",
+                                "html": "<code>x = 5 &nbsp; # int<br>y = 3.14 # float<br>z = 2+3j # complex</code>"
+                            },
+                            {
+                                "id": "pyp2",
+                                "label": "Strings",
+                                "html": "<code>s = \"Hello\"<br>s.upper() → \"HELLO\"<br>f\"Value: {x}\" → f-string</code>"
+                            },
+                            {
+                                "id": "pyp3",
+                                "label": "Lists & Dicts",
+                                "html": "<code>lst = [1, 2, 3] &nbsp; # list<br>d = {\"key\": \"val\"} # dict<br>t = (1, 2) &nbsp; &nbsp; &nbsp; &nbsp; # tuple</code>"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "py-s03",
+                    "order": 3,
+                    "type": "html",
+                    "title": "Control Flow",
+                    "content": {
+                        "html": "<h2>Control Flow</h2><pre style=\"background:#f3f4f6;padding:1rem;border-radius:6px;font-size:.85rem\"># If / else\\nif age >= 18:\\n    print(\"Adult\")\\nelse:\\n    print(\"Minor\")\\n\\n# For loop\\nfor i in range(5):\\n    print(i)\\n\\n# While loop\\ncount = 0\\nwhile count &lt; 3:\\n    count += 1</pre>",
+                        "layout": "default"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "unit-py-02",
+            "title": "Module 2: Functions & OOP",
+            "order": 2,
+            "slides": [
+                {
+                    "id": "py-s04",
+                    "order": 1,
+                    "type": "html",
+                    "title": "Functions",
+                    "content": {
+                        "html": "<h2>Functions in Python</h2><pre style=\"background:#f3f4f6;padding:1rem;border-radius:6px;font-size:.85rem\">def greet(name, greeting=\"Hello\"):\\n    return f\"{greeting}, {name}!\"\\n\\nprint(greet(\"Ali\"))          # Hello, Ali!\\nprint(greet(\"Sara\", \"Hi\"))   # Hi, Sara!\\n\\n# Lambda\\nsquare = lambda x: x ** 2\\nprint(square(4))             # 16</pre>",
+                        "layout": "default"
+                    }
+                },
+                {
+                    "id": "py-s05",
+                    "order": 2,
+                    "type": "html",
+                    "title": "Object-Oriented Programming",
+                    "content": {
+                        "html": "<h2>OOP Concepts</h2><pre style=\"background:#f3f4f6;padding:1rem;border-radius:6px;font-size:.85rem\">class Animal:\\n    def __init__(self, name):\\n        self.name = name\\n    def speak(self):\\n        return f\"{self.name} makes a sound\"\\n\\nclass Dog(Animal):\\n    def speak(self):\\n        return f\"{self.name} barks!\"\\n\\nd = Dog(\"Rex\")\\nprint(d.speak())  # Rex barks!</pre>",
+                        "layout": "default"
+                    }
+                },
+                {
+                    "id": "py-s06",
+                    "order": 3,
+                    "type": "quiz",
+                    "title": "Python Final Quiz",
+                    "content": {
+                        "instructions": "Test your Python knowledge. 70% to pass.",
+                        "passing_score": 70,
+                        "max_attempts": 3,
+                        "shuffle_answers": true,
+                        "show_feedback": true,
+                        "questions": [
+                            {
+                                "id": "pyq1",
+                                "type": "single_choice",
+                                "text": "What does len(\"Python\") return?",
+                                "weight": 1,
+                                "answers": [
+                                    {
+                                        "id": "pyqa",
+                                        "text": "6",
+                                        "correct": true,
+                                        "feedback": "Correct! P-y-t-h-o-n = 6 chars."
+                                    },
+                                    {
+                                        "id": "pyqb",
+                                        "text": "7",
+                                        "correct": false,
+                                        "feedback": "Count again."
+                                    },
+                                    {
+                                        "id": "pyqc",
+                                        "text": "5",
+                                        "correct": false,
+                                        "feedback": "Count again."
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "pyq2",
+                                "type": "true_false",
+                                "text": "Python uses indentation to define code blocks.",
+                                "weight": 1,
+                                "correct_answer": true,
+                                "feedback_correct": "Correct!",
+                                "feedback_incorrect": "Wrong. Python uses indentation, not braces."
+                            },
+                            {
+                                "id": "pyq3",
+                                "type": "multiple_choice",
+                                "text": "Which are valid Python data types?",
+                                "weight": 2,
+                                "answers": [
+                                    {
+                                        "id": "pyqca",
+                                        "text": "int",
+                                        "correct": true,
+                                        "feedback": "Yes"
+                                    },
+                                    {
+                                        "id": "pyqcb",
+                                        "text": "list",
+                                        "correct": true,
+                                        "feedback": "Yes"
+                                    },
+                                    {
+                                        "id": "pyqcc",
+                                        "text": "record",
+                                        "correct": false,
+                                        "feedback": "Not a Python type"
+                                    },
+                                    {
+                                        "id": "pyqcd",
+                                        "text": "dict",
+                                        "correct": true,
+                                        "feedback": "Yes"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
